@@ -42,14 +42,14 @@ function App() {
             placeholder="Title"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            className="border p-2 rounded w-full"
+            className="border p-2 rounded w-full p-2"
           />
           <input
             type="text"
             placeholder="Author"
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
-            className="border p-2 rounded w-full"
+            className="border p-2 rounded w-full p-2 w-auto"
           />
           <button
             onClick={addBook}
